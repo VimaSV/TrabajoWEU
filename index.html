@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"content="Sumérgete en el esoterismo y brujería. Disfruta de lecturas personalizadas, rituales modernos y consejos espirituales para transformar tu vida. ¡Conecta con tu energía interior hoy!">
+  <meta name="keywords" content="Amarres, amarres, Brujeria, Magia, Esoterismo, espituralidad">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Web Design Mastery | Explore Destinations</title>
+</head>
+
+<body>
+  <video autoplay loop muted plays-inline class="bg__video">
+    <source src="assets/PortadaPrincipal.mp4" type="video/mp4" />
+  </video>
+  <nav id="nav" class="">
+    <div class="nav__logo">
+      <img src="assets/LogoEpiri.png" alt="logo" />
+    </div>
+    <ul id="links" class="nav__links">
+      <li class="link"><a href="#" class="seleccionado" onclick="seleccionar(this)">Home</a></li>
+      <li class="link"><a href="servicios.html" onclick="seleccionar(this)">Servicios</a></li>
+      <li class="link"><a href="fag.html" onclick="seleccionar(this)">FAQPage</a></li>
+      <li class="link"><a href="blog.html" onclick="seleccionar(this)">Blog</a></li>
+    </ul>
+    <!-- Icono del menu responsive -->
+   <div id="icono-nav" onclick="responsiveMenu()">
+    <i class="ri-menu-line"></i>
+</div>
+  </nav>
+  <div class="titulo-container">
+    <h2 class="Populares">Servicios Mas Populares</h2>
+  </div>
+  
+  <div class="destination__container">
+    <img class="bg__img__1" src="assets/bg-dots.png" alt="bg" />
+    <img class="bg__img__2" src="assets/bg-arrow.png" alt="bg" />
+    <div class="socials">
+      <span><i class="ri-global-fill"></i></span>
+      <a href="#" onclick="abrirWhatsApp()"><span><i class="ri-whatsapp-fill"></i></span></a>
+      <span><i class="ri-copyright-fill"></i></span>
+      <span><i class="ri-customer-service-2-line"></i></span>
+    </div>
+    <div class="content">
+      <h1>Esoterismo<br />Brujería<br /><span>ESPIRITUALIDAD</span></h1>
+      <p>
+        Un espacio de transformación espiritual, donde el esoterismo, la brujería y la lectura de tarot se unen para
+        revelar los secretos del universo.
+        Especialmente diseñado para la comunidad hispana en Estados Unidos, ofrecemos rituales, amarres y asesorías
+        personalizadas
+        que combinan la sabiduría ancestral con técnicas modernas.
+        Descubre un camino hacia el bienestar, la armonía y la realización personal, déjanos guiarte en cada paso de tu
+        viaje espiritual.
+      </p>
+      <button class="btn" onclick="abrirWhatsApp()">Contactanos en WhatsApp</button>
+    </div>
+    <div class="destination__grid">
+      <div class="destination__card">
+        <img src="assets/amarres2.png" alt="destination" />
+        <div class="card__content">
+          <h4>Amarres - Amarres de amor</h4>
+          <p>
+            poderosos amarres de amor, diseñados para unir corazones y fortalecer la conexión entre parejas.
+            A través de rituales personalizados, te ayudamos a consolidar ese lazo afectivo, creando una unión duradera
+            y llena de armonía.
+          </p>
+
+          <button class="btn" onclick="abrirWhatsApp()">Primer Consulta Gratis</button>
+
+        </div>
+      </div>
+      <div class="destination__card">
+        <img src="assetS/Brujeria.png" alt="destination" />
+        <div class="card__content">
+          <h4>Burjeria - Magia</h4>
+          <p>
+            Adéntrate en el fascinante mundo de la brujería con nuestros servicios especializados.
+            Experimenta rituales auténticos y personalizados que honran la tradición ancestral, transformando tu
+            realidad de manera mágica y positiva.
+          </p>
+          <button class="btn" onclick="abrirWhatsApp()">Primer Consulta Gratis</button>
+        </div>
+      </div>
+      <div class="destination__card">
+        <img src="assets/libros1.jpeg" alt="destination" />
+        <div class="card__content">
+          <h4>Lectura de tarot - Horoscopo</h4>
+          <p>
+            Explora tu destino y obtén respuestas claras con nuestras lecturas de tarot.
+            Permite que las cartas revelen tus oportunidades y desafíos, guiándote para tomar decisiones acertadas en tu
+            camino hacia el bienestar.
+          </p><br>
+          <button class="btn" onclick="abrirWhatsApp()">Primer Consulta Gratis</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="whatsapp-float">
+    <!-- Reemplaza "1234567890" con tu número de teléfono en formato internacional sin signos (+) -->
+    <a onclick="abrirWhatsApp()" title="Chat en WhatsApp">
+      <!-- Se utiliza un ícono SVG para WhatsApp -->
+      <i class="ri-whatsapp-fill"></i>
+    </a>
+  </div>
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/66ef4308e5982d6c7bb29f7a/1ilafaunv';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+  <script src="fog.js"></script>
+</body>
+
+</html>

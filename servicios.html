@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestros Servicios</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="nav" class="">
+        <div class="nav__logo">
+          <img src="assets/LogoEpiri.png" alt="logo" />
+        </div>
+        <ul id="links" class="nav__links">
+          <li class="link"><a href="index.html" class="seleccionado" onclick="seleccionar(this)">Home</a></li>
+          <li class="link"><a href="fag.html" onclick="seleccionar(this)">FAQPage</a></li>
+          <li class="link"><a href="blog.html" onclick="seleccionar(this)">Blog</a></li>
+        </ul>
+        <!-- Icono del menu responsive -->
+       <div id="icono-nav" onclick="responsiveMenu()">
+        <i class="ri-menu-line"></i>
+    </div>
+      </nav>
+      <section class="content-section">
+        <div class="container">
+          <div class="text-container">
+            <h2>¿Como realizamos nuestros trabajos?</h2>
+            <p>Cada proceso es unico por lo cual lo mas importante es conocer y entender realmente que se quiere realizar y hasta donde podemos llegar 
+                esto lo logramos en nuestras secciones personalizadas y totalmente privadas que tendras con el maestro asigando el cual te guiara y 
+                te permitira obtener lo que tanto deseas.
+            </p>
+          </div>
+          <div class="video-container">
+            <video controls>
+                <source src="assets/PortadaPrincipal.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </section>
+      
+    <div class="background-container"></div>
+    <div class="content-container">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" data-background="assets/destination-1.jpg">
+                    <img src="assets/paisaje1.jpeg" alt="">
+                </div>
+                <div class="swiper-slide" data-background="assets/destination-2.jpg">
+                    <img src="assets/brrujo2.jpeg" alt="">
+                </div>
+
+                <div class="swiper-slide" data-background="assets/brrujo2.jpeg" >
+                    <img src="assets/brrujo2.jpeg" alt="">
+                </div>
+
+                <div class="swiper-slide" data-background="assets/brrujo2.jpeg" >
+                    <img src="assets/brrujo2.jpeg" alt="">
+                </div>
+
+                <div class="swiper-slide" data-background="assets/brrujo2.jpeg" >
+                    <img src="assets/brrujo2.jpeg" alt="">
+                </div>
+
+                <div class="swiper-slide" data-background="assets/brrujo2.jpeg" >
+                    <img src="assets/brrujo2.jpeg" alt="">
+                </div>
+
+                <div class="swiper-slide" data-background="assets/brrujo2.jpeg" >
+                    <img src="assets/brrujo2.jpeg" alt="">
+                </div>
+
+                <div class="swiper-slide" data-background="assets/brrujo2.jpeg" >
+                    <img src="assets/brrujo2.jpeg" alt="">
+                </div>
+
+                <div class="swiper-slide" data-background="assets/brrujo2.jpeg" >
+                    <img src="assets/brrujo2.jpeg" alt="">
+                </div>
+
+            </div>
+            
+            
+        </div>
+        <div class="description-container">
+            <h2 id="service-title"><i class="ri-service-line"></i> Servicio 2</h2>
+            <hr class="divider">
+            <ul id="service-description">
+                <li>Característica principal del servicio</li>
+                <li>Beneficio clave para el usuario</li>
+                <li>Ventaja adicional del servicio</li>
+            </ul>
+            <div class="price-rating">
+                <span class="price">$99.99</span>
+                <div class="rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+            </div>
+            <a href="#" class="cta-button">Comprar Ahora</a>
+            <span class="badge">Popular</span>
+        </div>
+        
+    </div>
+    <div class="whatsapp-float">
+        
+        <a onclick="abrirWhatsApp()" title="Chat en WhatsApp">
+         
+          <i class="ri-whatsapp-fill"></i>
+        </a>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="fog.js"></script>
+</body>
+</html>

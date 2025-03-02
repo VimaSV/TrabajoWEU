@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .nav__logo img {
+    max-width: 150px;
+  }
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    z-index: 1000;
+  }
+  
+  .nav__links li a:hover {
+    color: #00605f;
+  }
+  
+  #icono-nav {
+    color: #fff;
+    display: none;
+  }
+
+  .link a {
+    text-decoration: none;
+    font-weight: 600;
+    color: aliceblue;
+  }
+
+/* Reset básico y configuración de fuente */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #1a1a2e; /* Fondo oscuro místico */
+    color: #e0e0e0; /* Texto claro para contraste */
+    line-height: 1.6;
+  }
+  
+  /* Contenedor principal */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Título principal de FAQ */
+  .faq-title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #e94560; /* Color vibrante que evoca energía y misticismo */
+  }
+  
+  /* Estilo para cada ítem de FAQ */
+  .faq-item {
+    border-bottom: 1px solid #333;
+    padding: 15px 0;
+  }
+  
+  /* Estilo de la pregunta */
+  .faq-question {
+    font-size: 1.5em;
+    cursor: pointer;
+    position: relative;
+    padding-right: 30px;
+    transition: color 0.3s ease;
+  }
+  
+  .faq-question:hover {
+    color: #e94560;
+  }
+  
+  /* Estilo de la respuesta, inicialmente oculta */
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    margin-top: 10px;
+  }
+  
+  /* Estilo para el párrafo de la respuesta */
+  .faq-answer p {
+    margin: 0;
+  }
+  
+  /* Clase activa para mostrar la respuesta (se establece un max-height suficiente) */
+  .faq-item.active .faq-answer {
+    max-height: 300px; /* Ajusta este valor según la longitud del contenido */
+  }
+
+   /* Estilo del botón flotante */
+   .whatsapp-float {
+    position: fixed;
+    left: 10px;         /* Separación desde el borde izquierdo */
+    bottom: 20px;       /* Separación desde la parte inferior */
+    z-index: 1000;      /* Para que siempre esté al frente */
+  }
+
+  .whatsapp-float a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366; /* Color característico de WhatsApp */
+    color: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    transition: background-color 0.3s ease;
+  }
+
+  .whatsapp-float a:hover {
+    background-color: #1ebe5b;
+  }
+
+  /* Diseño responsivo para pantallas pequeñas */
+  @media (max-width: 600px) {
+    .whatsapp-float a {
+      width: 50px;
+      height: 50px;
+      font-size: 24px;
+    }
+  }
+  
+  /* Diseño responsivo para pantallas pequeñas */
+  @media screen and (max-width: 768px) {
+    .faq-title {
+      font-size: 2em;
+    }
+    .faq-question {
+      font-size: 1.3em;
+    }
+    .nav__links {
+        display: none;
+      }
+    
+      nav.responsive {
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        top: 0px;
+        left: 0;
+        padding: 5px 5px;
+        z-index: 1000;
+      }
+      nav.responsive ul {
+        display: block !important;
+        text-align: center;
+      }
+      nav.responsive ul li {
+        margin: 5px 0;
+      }
+      #icono-nav {
+        display: grid;
+        justify-content: end;
+        font-size: 24px;
+        padding: 10px 25px;
+        margin-top: -5px;
+      }
+  }
+  

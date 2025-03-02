@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ - Trabajos de Esoterismo</title>
+  <link rel="stylesheet" href="stylesFAG.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+  <script defer src="script.js"></script>
+  <!-- Structured Data: FAQPage utilizando JSON-LD para SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Cuál es la duración típica de un trabajo esotérico?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La duración de un trabajo esotérico varía según la naturaleza del servicio, pero generalmente oscila entre una sesión única de 1 a 2 horas y procesos de varias sesiones distribuidas en semanas o meses, dependiendo de la complejidad y las necesidades del consultante."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué tipos de rituales se ofrecen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Se ofrecen una amplia variedad de rituales, desde limpieza energética y protección espiritual hasta rituales de amor, prosperidad y retorno de pareja, todos adaptados a las necesidades y creencias individuales de cada cliente."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cómo se realizan las consultas esotéricas?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Las consultas esotéricas se realizan de manera personalizada, ya sea de forma presencial o virtual. Durante la sesión, se utilizan herramientas como el tarot, la lectura de runas o la interpretación de energías para ofrecer orientación y respuestas a las inquietudes del consultante."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué tan efectiva es la intervención esotérica?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La efectividad de los trabajos esotéricos depende del compromiso del consultante y de la precisión en la aplicación de técnicas ancestrales combinadas con métodos modernos. Muchos clientes han experimentado cambios significativos en su bienestar y claridad espiritual."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuáles son los rangos de precios para un trabajo esotérico?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Los precios pueden variar considerablemente según la complejidad del trabajo y la experiencia del profesional. Generalmente, una consulta básica puede comenzar en un rango accesible, mientras que intervenciones más profundas y rituales personalizados pueden tener un costo mayor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cómo se garantiza la confidencialidad del servicio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La confidencialidad es fundamental en el ámbito esotérico. Todos los trabajos se realizan bajo estrictos protocolos de privacidad, asegurando que la información personal y las experiencias compartidas se mantengan seguras y reservadas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué preparación es necesaria antes de iniciar un trabajo esotérico?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Se recomienda que el consultante se encuentre en un estado de apertura y reflexión, y en ocasiones se sugieren rituales previos de purificación, como meditaciones o limpiezas energéticas, para optimizar la experiencia y los resultados del trabajo esotérico."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <nav id="nav" class="">
+    <div class="nav__logo">
+      <img src="assets/LogoEpiri.png" alt="logo" />
+    </div>
+    <ul id="links" class="nav__links">
+      <li class="link"><a href="index.html" class="seleccionado" onclick="seleccionar(this)">Home</a></li>
+      <li class="link"><a href="servicios.html" onclick="seleccionar(this)">Servicios</a></li>
+      <li class="link"><a href="blog.html" onclick="seleccionar(this)">Blog</a></li>
+    </ul>
+    <!-- Icono del menu responsive -->
+   <div id="icono-nav" onclick="responsiveMenu()">
+    <i class="ri-menu-line"></i>
+</div>
+  </nav>
+  <!-- Sección FAQ con microdatos schema.org -->
+  <section class="faq-section" itemscope itemtype="https://schema.org/FAQPage">
+    <div class="container">
+      <h1 class="faq-title">Preguntas Frecuentes sobre Trabajos de Esoterismo</h1>
+      
+      <!-- FAQ Item 1 -->
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <h2 class="faq-question" itemprop="name">¿Cuál es la duración típica de un trabajo esotérico?</h2>
+        <div class="faq-answer" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p itemprop="text">La duración de un trabajo esotérico varía según la naturaleza del servicio, pero generalmente oscila entre una sesión única de 1 a 2 horas y procesos de varias sesiones distribuidas en semanas o meses, dependiendo de la complejidad y las necesidades del consultante.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 2 -->
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <h2 class="faq-question" itemprop="name">¿Qué tipos de rituales se ofrecen?</h2>
+        <div class="faq-answer" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p itemprop="text">Se ofrecen una amplia variedad de rituales, desde limpieza energética y protección espiritual hasta rituales de amor, prosperidad y retorno de pareja, todos adaptados a las necesidades y creencias individuales de cada cliente.
+            ver mas servicios <a href="servicios.html">aqui</a>
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 3 -->
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <h2 class="faq-question" itemprop="name">¿Cómo se realizan las consultas esotéricas?</h2>
+        <div class="faq-answer" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p itemprop="text">Las consultas esotéricas se realizan de manera personalizada, ya sea de forma presencial o virtual. Durante la sesión, se utilizan herramientas como el tarot, la lectura de runas o la interpretación de energías para ofrecer orientación y respuestas a las inquietudes del consultante.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 4 -->
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <h2 class="faq-question" itemprop="name">¿Qué tan efectiva es la intervención esotérica?</h2>
+        <div class="faq-answer" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p itemprop="text">La efectividad de los trabajos esotéricos depende del compromiso del consultante y de la precisión en la aplicación de técnicas ancestrales combinadas con métodos modernos. Muchos clientes han experimentado cambios significativos en su bienestar y claridad espiritual.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 5 -->
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <h2 class="faq-question" itemprop="name">¿Cuáles son los rangos de precios para un trabajo esotérico?</h2>
+        <div class="faq-answer" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p itemprop="text">Los precios pueden variar considerablemente según la complejidad del trabajo y la experiencia del profesional. Generalmente, una consulta básica puede comenzar en un rango accesible, mientras que intervenciones más profundas y rituales personalizados pueden tener un costo mayor.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 6 -->
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <h2 class="faq-question" itemprop="name">¿Cómo se garantiza la confidencialidad del servicio?</h2>
+        <div class="faq-answer" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p itemprop="text">La confidencialidad es fundamental en el ámbito esotérico. Todos los trabajos se realizan bajo estrictos protocolos de privacidad, asegurando que la información personal y las experiencias compartidas se mantengan seguras y reservadas.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Item 7 -->
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <h2 class="faq-question" itemprop="name">¿Qué preparación es necesaria antes de iniciar un trabajo esotérico?</h2>
+        <div class="faq-answer" itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p itemprop="text">Se recomienda que el consultante se encuentre en un estado de apertura y reflexión, y en ocasiones se sugieren rituales previos de purificación, como meditaciones o limpiezas energéticas, para optimizar la experiencia y los resultados del trabajo esotérico.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <div class="whatsapp-float">
+    
+    <a onclick="abrirWhatsApp()" title="Chat en WhatsApp">
+      
+      <i class="ri-whatsapp-fill"></i>
+    </a>
+  </div>
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/66ef4308e5982d6c7bb29f7a/1ilafaunv';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+</body>
+</html>
