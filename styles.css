@@ -560,8 +560,8 @@ nav {
   }
 
   .swiper-container, .description-container {
-      width: 90%;
       margin: 10px 0;
+      overflow: hidden;
   }
 }
 
@@ -649,10 +649,11 @@ nav {
     padding-left: 3rem;
     z-index: 0;
     padding: 10px 35px;
+    overflow: hidden;
   }
 
   .content h1 {
-    font-size: 3rem;
+    font-size: 40px;
   }
 
   .destination__grid {
